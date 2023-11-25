@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Poppins:ital,wght@0,100;0,400;0,500;1,200&display=swap');
+
+
+
+@import '_variables';
+@import '_components';
+@import '_header';
+@import '_navbar';
+@import '_events';
+@import '_explore';
+@import '_tours';
+@import '_footer';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: $body-color;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.menu-btn {
+    display: none;
+}
